@@ -1,0 +1,14 @@
+{
+  "name": "String Extractor YouTube",
+  "version": "1.0",
+  "description": "Extracts the searched string from the YouTube query string.",
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["activeTab", "storage", "scripting", "tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
